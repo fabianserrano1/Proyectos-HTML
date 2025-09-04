@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Academia Conquerblock</title>
+    <meta name="description" content="registrate para los cursos">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="img/comun/Conquer-Blocks-logo.png" alt="logotipo de Conquerblock">
+        </figure>
+        
+        <nav>            
+            <a href="index.html">Inicio</a>&nbsp;&nbsp;&nbsp;
+            <a href="quienes_somos.html">Quienes somos</a>&nbsp;&nbsp;&nbsp;
+            <a href="cursos.html">Cursos</a>&nbsp;&nbsp;&nbsp;
+            <a href="blog.html">Blog</a>&nbsp;&nbsp;&nbsp;
+            Registro&nbsp;&nbsp;&nbsp;
+            <a href="login.html">Login</a>&nbsp;&nbsp;&nbsp;
+            <a href="contacto.html">contacto</a>            
+    </nav>
+
+    </header>
+
+    <main>
+        <h1>Registrate</h1>
+        <p>Es indispensable que te registres para poder acceder a nuestra academia</p>
+        <form action="post" enctype="multipart/form-data">
+            <p>
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" name="nombre" id="nombre" required>
+            </p>
+            <p>
+                <label for="birthday">Fecha de nacimiento:</label>
+                <input type="date" name="birthday" id="birthday">
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+            </p>
+            <p>
+                <label for="direccion">Direccion:</label>
+                <input type="text" name="direccion" id="direccion">
+            </p>
+            <p>
+                <label for="web">Pagina Web:</label>
+                <input type="url" name="web" id="web">
+            </p>
+            <p>
+                <label for="foto">Foto:</label>
+                <input type="file" name="foto" id="Foto">
+            </p>
+            <p>
+                <label for="biografia">Biografia:</label><br>
+                <textarea name="biografia" id="biografia" cols="40" rows="10"></textarea>
+            </p>
+            <p>
+                <button>Enviar</button>
+                <input type="reset" value="Borrar formulario">
+            </p>
+        </form>
+    </main>
+
+    <footer>
+        <p>@ Conquerblock 2024 - <a href="aviso_legal.html">Aviso legal</a></p>
+    </footer>
+    
+</body>
+</html>
